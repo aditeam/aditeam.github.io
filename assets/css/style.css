@@ -31,12 +31,12 @@ a:hover,a:active{
     outline:0
 }
 h1{
-    font-size:2em;
-    margin:0.67em 0
+    font-size:2em !important;
+    margin:0.67em 0 !important;
 }
 h2{
-    font-size:1.5em;
-    margin:0.83em 0
+    font-size:1.5em !important;
+    margin:0.83em 0 !important;
 }
 h3{
     font-size:1.17em;
