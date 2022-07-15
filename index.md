@@ -13,3 +13,15 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Contact
 
 ## Sponsors
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+<p class="font-sans md:font-serif">
+  123123123123
+</p>
+
+{% include home.html %}
