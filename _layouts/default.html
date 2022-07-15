@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% seo %}
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <style>
     #particles-js canvas {
         display: block;
@@ -39,9 +39,7 @@
         </nav>
     </header>
     <div class="wrapper">
-      <section>
-        {{ content }}
-      </section>
+      {{ content }}
     </div>
     <div class="wrapper">
       <h1 id="applied-data-intelligence">Applied Data Intelligence</h1>
