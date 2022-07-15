@@ -128,4 +128,3 @@
       </div>
    </section>
 </section>
-{% include home.html %}
