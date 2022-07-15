@@ -13,8 +13,3 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Contact
 
 ## Sponsors
-
-***
-
-**Applied Data Intelligence**
-Faculty of Medicine, Prince of Songkhla University
