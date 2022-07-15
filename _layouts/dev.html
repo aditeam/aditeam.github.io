@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% seo %}
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    #particles-js canvas {
+        display: block;
+        position: absolute;
+        background-color: #000000;
+        top: 0;
+        left: 0;
+        z-index: -10;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+        -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+        transition: opacity .8s ease, transform 1.4s ease
+    }
+  </style>
+</head>
+<body id="particles-js">
+  <div class="container mx-auto max-w-screen-md bg-black text-white">
+    <header class="w-full py-9 flex justify-between">
+        <nav class=" text-[.8rem] space-x-2 font-mono">
+            <a href="/" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 border-[0.5px] border-white/20 hover:border-white/40 backdrop-blur-sm hover:scale-95 transition-all ease-in-out duration-200">/home</a>
+            <a href="/people" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 border-[0.5px] border-white/20 hover:border-white/40 backdrop-blur-sm hover:scale-95 transition-all ease-in-out duration-200">/people</a>
+            <a href="/publications" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 border-[0.5px] border-white/20 hover:border-white/40 backdrop-blur-sm hover:scale-95 transition-all ease-in-out duration-200">/publications</a>
+            <a href="/projects" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 border-[0.5px] border-white/20 hover:border-white/40 backdrop-blur-sm hover:scale-95 transition-all ease-in-out duration-200">/projects</a>
+            <a href="/portfolio" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 border-[0.5px] border-white/20 hover:border-white/40 backdrop-blur-sm hover:scale-95 transition-all ease-in-out duration-200">/portfilio</a>
+        </nav>
+        <div class="flex items-center space-x-3.5 pr-2 pr-0">
+          <a href="https://aditeam.github.io" target="_blank" rel="noreferrer">
+            <img src="/assets/img/adi_gray.png" class="opacity-50 hover:opacity-75" style="height:24px;">
+          </a>
+        </div>
+    </header>
+    <div class="wrapper">
+      <section class="max-w-3xl w-full flex pt-24 sm:pt-4 pb-12">
+        <section class="space-y-12">
+           <div class="space-y-2 sm:space-y-3">
+              <h1 class="font-bold text-4xl sm:text-5xl tracking-wide">Applied Data Intelligence</h1>
+              <div class="font-light text-neutral-100/80">
+                 We are a research group based at Faculty of Medicine, Prince of Songkla University, Thailand. We work on.
+              </div>
+           </div>
+           <div class="space-y-2">
+              <h2 class="font-semibold text-2xl sm:text-[1.67rem] tracking-wide">What We Do?</h2>
+              <p class="font-light text-neutral-100/80">I am currently working as a freelance software engineer and UI/UX developer. In my free time, I build software solutions for integrating blockchains in daily use. I focus on building responsive, mobile-first web applications from the ground up. I've also developed browser games, token-gated e-commerce solutions and other open-source software; totaling ⭐ 33 stars and 🍴 12 forks.</p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 pt-2">
+                 <div class="rounded-lg border-[0.5px] border-white/20 hover:border-white/40 flex flex-col bg-white/5 hover:bg-white hover:bg-opacity-[6.9%] backdrop-blur-sm w-full transition-all duration-200 ease-in-out text-neutral-100/90 hover:text-neutral-100 h-fit">
+                    <div class="cursor-pointer px-4 py-3 group flex justify-between items-center w-full select-none">
+                       <div class="font-medium">Dragonia GG</div>
+                       <div class="px-2 py-1.5 font-serif shadow-inner rounded-full group-hover:bg-white/10 transition-all duration-200 ease-in-out"><img src="/assets/img/chevron.svg" alt="Expand icon" class="w-2 opacity-75 hover:opacity-90 transition-all duration-150 ease-in-out"></div>
+                    </div>
+                    <div class="h-[.069rem] w-full bg-white/20 hidden"></div>
+                    <div class="p-3.5 justify-between h-full flex flex-col space-y-3 hidden">
+                       <div class="font-light text-sm">🐉 🃏 Dragonia is a mobile-compatible browser game and smart contract protocol built on the Optimism blockchain. I wrote each line of code &amp; designed the UI and system architecture used in the multi-contract protocol.</div>
+                       <div class="flex flex-wrap gap-1">
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TypeScript </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">React.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Next.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TailwindCSS </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Solidity </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">ERC721A </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">ethers.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">wagmi.sh </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Hardhat </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Python </div>
+                       </div>
+                       <a class="rounded-full px-2.5 py-1.5 text-sm bg-white/5 hover:bg-white/10 hover:scale-95 transition-all duration-300 ease-in-out w-fit self-end tracking-wide font-medium border-[0.5px] border-white/10 hover:border-white/30" href="https://dragonia.gg" target="_blank" rel="noreferrer">View Project</a>
+                    </div>
+                 </div>
+                 <div class="rounded-lg border-[0.5px] border-white/20 hover:border-white/40 flex flex-col bg-white/5 hover:bg-white hover:bg-opacity-[6.9%] backdrop-blur-sm w-full transition-all duration-200 ease-in-out text-neutral-100/90 hover:text-neutral-100 h-fit">
+                    <div class="cursor-pointer px-4 py-3 group flex justify-between items-center w-full select-none">
+                       <div class="font-medium">Primal Beasts</div>
+                       <div class="px-2 py-1.5 font-serif shadow-inner rounded-full group-hover:bg-white/10 transition-all duration-200 ease-in-out"><img src="/icons/chevron.svg" alt="Expand icon" class="w-2 opacity-75 hover:opacity-90 transition-all duration-150 ease-in-out"></div>
+                    </div>
+                    <div class="h-[.069rem] w-full bg-white/20 hidden"></div>
+                    <div class="p-3.5 justify-between h-full flex flex-col space-y-3 hidden">
+                       <div class="font-light text-sm">🐯 I consulted and built a NFT &amp; allowlist marketplace; integrating web3 token-payments with a sql-database inventory. I developed the entire frontend and a cross-chain purchasing solution as well.</div>
+                       <div class="flex flex-wrap gap-1">
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TypeScript </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">React.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Next.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TailwindCSS </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Solidity </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">ERC20 </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">ethers.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">web3-react </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Hardhat </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Supabase </div>
+                       </div>
+                       <a class="rounded-full px-2.5 py-1.5 text-sm bg-white/5 hover:bg-white/10 hover:scale-95 transition-all duration-300 ease-in-out w-fit self-end tracking-wide font-medium border-[0.5px] border-white/10 hover:border-white/30" href="https://primalbeasts.io" target="_blank" rel="noreferrer">View Project</a>
+                    </div>
+                 </div>
+                 <div class="rounded-lg border-[0.5px] border-white/20 hover:border-white/40 flex flex-col bg-white/5 hover:bg-white hover:bg-opacity-[6.9%] backdrop-blur-sm w-full transition-all duration-200 ease-in-out text-neutral-100/90 hover:text-neutral-100 h-fit">
+                    <div class="cursor-pointer px-4 py-3 group flex justify-between items-center w-full select-none">
+                       <div class="font-medium">web3-link-tree</div>
+                       <div class="px-2 py-1.5 font-serif shadow-inner rounded-full group-hover:bg-white/10 transition-all duration-200 ease-in-out"><img src="/icons/chevron.svg" alt="Expand icon" class="w-2 opacity-75 hover:opacity-90 transition-all duration-150 ease-in-out"></div>
+                    </div>
+                    <div class="h-[.069rem] w-full bg-white/20 hidden"></div>
+                    <div class="p-3.5 justify-between h-full flex flex-col space-y-3 hidden">
+                       <div class="font-light text-sm">(🔗, 🌲) Web3 Link Tree is a free &amp; open-source alternative to Linktree built with React.js, Next.js, Tailwind and Web3-React.</div>
+                       <div class="flex flex-wrap gap-1">
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TypeScript </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">React.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Next.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TailwindCSS </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">ethers.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">web3-react </div>
+                       </div>
+                       <a class="rounded-full px-2.5 py-1.5 text-sm bg-white/5 hover:bg-white/10 hover:scale-95 transition-all duration-300 ease-in-out w-fit self-end tracking-wide font-medium border-[0.5px] border-white/10 hover:border-white/30" href="https://github.com/noahdotms/web3-link-tree" target="_blank" rel="noreferrer">View Project</a>
+                    </div>
+                 </div>
+                 <div class="rounded-lg border-[0.5px] border-white/20 hover:border-white/40 flex flex-col bg-white/5 hover:bg-white hover:bg-opacity-[6.9%] backdrop-blur-sm w-full transition-all duration-200 ease-in-out text-neutral-100/90 hover:text-neutral-100 h-fit">
+                    <div class="cursor-pointer px-4 py-3 group flex justify-between items-center w-full select-none">
+                       <div class="font-medium">glory-to-ukraine</div>
+                       <div class="px-2 py-1.5 font-serif shadow-inner rounded-full group-hover:bg-white/10 transition-all duration-200 ease-in-out"><img src="/icons/chevron.svg" alt="Expand icon" class="w-2 opacity-75 hover:opacity-90 transition-all duration-150 ease-in-out"></div>
+                    </div>
+                    <div class="h-[.069rem] w-full bg-white/20 hidden"></div>
+                    <div class="p-3.5 justify-between h-full flex flex-col space-y-3 hidden">
+                       <div class="font-light text-sm">🇺🇦 Web3-enabled Ethereum donation portal for Ukraine.</div>
+                       <div class="flex flex-wrap gap-1">
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TypeScript </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">React.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">Next.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">TailwindCSS </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">ethers.js </div>
+                          <div class="rounded-full px-2 py-1 text-xs font-light bg-white bg-opacity-[8%]">web3-react </div>
+                       </div>
+                       <a class="rounded-full px-2.5 py-1.5 text-sm bg-white/5 hover:bg-white/10 hover:scale-95 transition-all duration-300 ease-in-out w-fit self-end tracking-wide font-medium border-[0.5px] border-white/10 hover:border-white/30" href="https://github.com/noahdotms/glory-to-ukraine" target="_blank" rel="noreferrer">View Project</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="space-y-2">
+              <h3 class="font-semibold text-2xl sm:text-[1.67rem] tracking-wide">Technology Stack</h3>
+              <p class="font-light text-neutral-100/80">These are the most significant tools I use at the moment. Fun fact, Angular was the first framework I've learned, and inspired my love for front-end development!</p>
+              <div class="flex flex-wrap gap-1.5 pt-2">
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/typescript.svg" alt="TypeScript icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>TypeScript</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/react.svg" alt="React.js icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>React.js</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/next.svg" alt="Next.js icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Next.js</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/svelte.svg" alt="Svelte icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Svelte</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/tailwind.svg" alt="TailwindCSS icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>TailwindCSS</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/solidity.svg" alt="Solidity icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Solidity</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/python.svg" alt="Python icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Python</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/node.svg" alt="Node.js icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Node.js</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/yarn.svg" alt="Yarn icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Yarn</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/graphql.svg" alt="GraphQL icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>GraphQL</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/supabase.svg" alt="Supabase icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Supabase</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/java.svg" alt="Java icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Java</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/git.svg" alt="Git icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Git</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/aws.svg" alt="AWS icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>AWS</span></div>
+                 <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/figma.svg" alt="Figma icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Figma</span></div>
+              </div>
+           </div>
+           <div class="space-y-2">
+            <h3 class="font-semibold text-2xl sm:text-[1.67rem] tracking-wide">Sponsors</h3>
+            <p class="font-light text-neutral-100/80">These are the most significant tools I use at the moment. Fun fact, Angular was the first framework I've learned, and inspired my love for front-end development!</p>
+            <div class="flex flex-wrap gap-1.5 pt-2">
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/typescript.svg" alt="TypeScript icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>TypeScript</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/react.svg" alt="React.js icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>React.js</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/next.svg" alt="Next.js icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Next.js</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/svelte.svg" alt="Svelte icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Svelte</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/tailwind.svg" alt="TailwindCSS icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>TailwindCSS</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/solidity.svg" alt="Solidity icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Solidity</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/python.svg" alt="Python icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Python</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/node.svg" alt="Node.js icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Node.js</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/yarn.svg" alt="Yarn icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Yarn</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/graphql.svg" alt="GraphQL icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>GraphQL</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/supabase.svg" alt="Supabase icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Supabase</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/java.svg" alt="Java icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Java</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/git.svg" alt="Git icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Git</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/aws.svg" alt="AWS icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>AWS</span></div>
+               <div class="cursor-default font-normal text-sm flex space-x-2 items-center px-2.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 duration-100 ease-in-out transition-all border-[0.5px] border-white/10 hover:border-white/40 text-neutral-100/80 hover:text-neutral-100/90 group"><img src="/icons/figma.svg" alt="Figma icon" class="w-[1.2rem] h-[1.2rem] opacity-[88%] group-hover:opacity-[98%]"> <span>Figma</span></div>
+            </div>
+         </div>
+        </section>
+     </section>
+    </div>
+    <footer class="">
+        <div class="bg-gray-700 p-[.069rem] my-2"></div>
+        <div class="text-sm text-gray-500"><strong>Applied Data Intelligence Group</strong></div>
+        <div class="text-sm text-gray-500">Faculty of Medicine, Prince of Songkla University</div>
+        <div class="text-sm text-gray-500">8th Floor, Srivetchawat Building, 15 Kanchanavanich Road, Hat Yai, Songkhla 90110, Thailand.</div>
+    </footer>
+  </div>
+  <!-- Particle JS -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <script>particlesJS("particles-js", {"particles":{"number":{"value":6,"density":{"enable":true,"value_area":800}},"color":{"value":"#111"},"shape":{"type":"polygon","stroke":{"width":0,"color":"#000"},"polygon":{"nb_sides":6},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.3,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":160,"random":false,"anim":{"enable":true,"speed":10,"size_min":40,"sync":false}},"line_linked":{"enable":false,"distance":200,"color":"#111","opacity":1,"width":2},"move":{"enable":true,"speed":8,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});</script>
+</body>
+</html>
